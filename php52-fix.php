@@ -82,4 +82,4 @@ $diff->days = (int) floor(((int) $date2->format('U') - (int) $date1->format('U')
 return $diff;
 }
 }
- 
+ ?>
