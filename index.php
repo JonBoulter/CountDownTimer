@@ -1,3 +1,4 @@
+<h>Testing</h>
 <?php
 
 	//Leave all this stuff as it is
@@ -11,6 +12,7 @@
 	$frames = array();	
 	$delays = array();
 
+echo $time;
 
 	// Your image link
 	$image = imagecreatefrompng('images/countdown.png');
