@@ -269,3 +269,4 @@ echo $this->image;
 }
  
 }
+?>
