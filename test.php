@@ -23,7 +23,7 @@ function LoadPNG($imgname)
 
 header('Content-Type: image/png');
 
-$img = LoadPNG('images/countdown.png');
+$img = LoadPNG('https://pngimage.net/wp-content/uploads/2018/06/test-png-7.png');
 
 imagepng($img);
 imagedestroy($img);
