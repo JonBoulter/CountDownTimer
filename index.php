@@ -1,4 +1,3 @@
-<h>Testing</h>
 <?php
 
 	//Leave all this stuff as it is
