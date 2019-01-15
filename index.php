@@ -12,10 +12,10 @@
 	$frames = array();	
 	$delays = array();
 
+echo 'Test 2';
+
 	// Your image link
 	$image = imagecreatefrompng('images/countdown.png');
-
-echo 'Test 2';
 
 	$delay = 100;// milliseconds
 
