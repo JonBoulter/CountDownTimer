@@ -26,6 +26,8 @@
 	);
 	for($i = 0; $i <= 60; $i++){
 		
+		echo $i;
+		
 		$interval = date_diff($future_date, $now);
 		
 		if($future_date < $now){
