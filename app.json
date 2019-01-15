@@ -2,7 +2,7 @@
   "buildpacks": [
 
     {
-      "url": "heroku/php"
+      "url": "git://github.com/winglian/heroku-buildpack-php.git#mpm-event-php55-fpm"
     }
   ]
 }
