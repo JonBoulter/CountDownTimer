@@ -15,6 +15,8 @@
 	// Your image link
 	$image = imagecreatefrompng('images/countdown.png');
 
+echo $image;
+
 	$delay = 100;// milliseconds
 
 	$font = array(
@@ -26,9 +28,7 @@
 		'color' => imagecolorallocate($image, 55, 160, 130), // RGB Colour of the text
 	);
 	for($i = 0; $i <= 60; $i++){
-		
-		echo $i;
-		
+			
 		$interval = date_diff($future_date, $now);
 		
 		if($future_date < $now){
